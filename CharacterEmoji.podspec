@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CharacterEmoji'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'to use emoji & alert'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CharacterEmoji/Classes/**/*'
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
   s.dependency 'KKTouchPoints'
-  s.dependency 'lottie-ios'
+  s.dependency 'JPush'
   
+  s.xcconfig = {
+      'VALID_ARCHS' =>  'arm64 x86_64',
+  }
   
   # s.resource_bundles = {
   #   'CharacterEmoji' => ['CharacterEmoji/Assets/*.png']
