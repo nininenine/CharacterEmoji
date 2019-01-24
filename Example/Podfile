@@ -2,7 +2,8 @@ use_frameworks!
 
 target 'CharacterEmoji_Example' do
   pod 'CharacterEmoji', :path => '../'
-
+  pod 'lottie-ios'
+  
   target 'CharacterEmoji_Tests' do
     inherit! :search_paths
 

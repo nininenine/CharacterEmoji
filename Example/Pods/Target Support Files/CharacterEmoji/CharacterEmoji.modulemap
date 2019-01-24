@@ -1,0 +1,6 @@
+framework module CharacterEmoji {
+  umbrella header "CharacterEmoji-umbrella.h"
+
+  export *
+  module * { export * }
+}

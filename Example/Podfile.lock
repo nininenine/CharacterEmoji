@@ -1,0 +1,16 @@
+PODS:
+  - CharacterEmoji (0.1.0)
+
+DEPENDENCIES:
+  - CharacterEmoji (from `../`)
+
+EXTERNAL SOURCES:
+  CharacterEmoji:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CharacterEmoji: 94877b499dc936691be7e39552cdb67a2273254d
+
+PODFILE CHECKSUM: d8bfe35ab5f1746385674c3f9ec24dc03957fd44
+
+COCOAPODS: 1.5.3
